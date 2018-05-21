@@ -64,19 +64,33 @@ class DataSet:
     def number_value(self):
         """
         get number configuration
-        :return: (166,2)
+        :return: (166,3)
         """
         catalog_list = ["DOC", "feed","time"]
         number_value = []
-        for catalog in catalog_list:
-            catalog_data = self.mill_data[catalog].reshape(-1)
-            catalog_data = np.delete(catalog_data, 94)
+
+        for i in range(167):
+            if i == 94:
+                continue
             this_catalog_data = []
-            for index, value in enumerate(catalog_data):
-                # print(catalog, index, value.shape)
-                this_catalog_data.append(value.reshape(-1))
+            for catalog in catalog_list:
+                catalog_data = self.mill_data[catalog].reshape(-1)
+                this_catalog_data.append(catalog_data[i][0][0])
+            this_catalog_data = np.array(this_catalog_data)
             number_value.append(this_catalog_data)
-        return np.array(number_value).reshape(166, 2)
+
+        # number_value = []
+        #
+        #
+        # for catalog in catalog_list:
+        #     catalog_data = self.mill_data[catalog].reshape(-1)
+        #     catalog_data = np.delete(catalog_data, 94)
+        #     this_catalog_data = []
+        #     for index, value in enumerate(catalog_data):
+        #         # print(catalog, index, value.shape)
+        #         this_catalog_data.append(value.reshape(-1))
+        #     number_value.append(this_catalog_data)
+        return np.array(number_value)
 
     @property
     def material_type(self):

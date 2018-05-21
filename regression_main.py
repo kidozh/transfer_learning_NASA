@@ -14,15 +14,10 @@ DROPOUT = 0.2
 
 
 data = DataSet()
-y = data.vb_value
-signal_input,catalog_input,number_input = data.signal_value,data.material_type,data.number_value  # type: (ndarray, ndarray, None)
-
-print(y.shape)
-for i in y:
-    print('*',i)
-
-plt.plot(y,label="y")
-plt.show()
+# original data may have data missing, using random forest to predict that
+y = data.rf_vb_value
+signal_input,catalog_input = data.signal_value,data.material_type  # type: (ndarray, ndarray)
+number_input = data.number_value
 
 for depth in [20,15,10]:
     local_time = "%Y-%m-%d %H:%M:%S", time.localtime()
@@ -32,7 +27,8 @@ for depth in [20,15,10]:
 
     if not PREDICT:
         tb_cb = TensorBoard(log_dir=LOG_DIR+train_name)
-        model = build_residual_model(signal_input.shape[1],signal_input.shape[2],catalog_input.shape[1],number_input.shape[1],y.shape[1],block_number=depth,dropout=DROPOUT)
+
+        model = build_residual_model(signal_input.shape[1],signal_input.shape[2],catalog_input.shape[1],number_input.shape[1],1,block_number=depth,dropout=DROPOUT)
 
         model.fit([signal_input,catalog_input,number_input],y,callbacks=[tb_cb],batch_size=4,epochs=1000,validation_split=0.2)
         model.save(model_name)
