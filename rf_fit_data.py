@@ -23,7 +23,7 @@ def fit_value_by_random_forest():
         else:
             pass
             # print(list,type(list))
-    # print(null_index_list)
+    print(null_index_list)
     df_drop = df.drop(null_index_list)
     # print(df_drop)
 
@@ -37,7 +37,7 @@ def fit_value_by_random_forest():
     # fit data
     for index,value in enumerate(df['VB']):
         if math.isnan(value):
-            df['VB'][index] = preds[index]
+            df['VB'][index] = round(preds[index],2)
             null_index_list.append(index)
 
     # plt.plot(df['VB'],label='fit_data_with_null')
