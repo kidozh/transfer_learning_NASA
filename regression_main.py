@@ -9,7 +9,7 @@ import numpy as np
 # --------------- CONF -------------------------
 PREDICT = False
 LOG_DIR = './regression_log/'
-DROPOUT = 0.2
+DROPOUT = 0.1
 
 # --------------- CONF -------------------------
 
