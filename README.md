@@ -6,10 +6,11 @@ Testing transfer learning among different milling condition
 + replace `NaN` value by random forest algorithm
 + model creation
 + regression process established
++ trans-condition model prediction
 
 # TODO
 
-+ trans-condition model prediction
++ mechanism assumption for regression of deep learning
 
 # Dependency
 
