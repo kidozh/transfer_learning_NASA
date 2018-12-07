@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="347.21951mm"
+   height="494.85901mm"
+   viewBox="0 0 1230.3054 1753.4374"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.3 (unknown)"
+   sodipodi:docname="whole_structure.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1154"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DotM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)"
+         style="fill:#424242;fill-opacity:1;fill-rule:evenodd;stroke:#424242;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         id="path1152" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1045"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1043"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6204"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path6206"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker6078"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DotM"
+       inkscape:collect="always">
+      <path
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         id="path6080"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5988"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path5990"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill:#424242;fill-opacity:1;fill-rule:evenodd;stroke:#424242;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker5898"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DotM"
+       inkscape:collect="always">
+      <path
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         id="path5900"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5232"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path5234"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill:#424242;fill-opacity:1;fill-rule:evenodd;stroke:#424242;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="DiamondM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4542"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4544"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 Z"
+         style="fill:#3e2723;fill-opacity:1;fill-rule:evenodd;stroke:#3e2723;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path4266"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill:#424242;fill-opacity:1;fill-rule:evenodd;stroke:#424242;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Send"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4217"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#212121;fill-opacity:1;fill-rule:evenodd;stroke:#212121;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="DiamondM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DiamondM"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4284"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 Z"
+         style="fill:#212121;fill-opacity:1;fill-rule:evenodd;stroke:#212121;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="422.3728"
+     inkscape:cy="1659.4464"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1543"
+     inkscape:window-height="876"
+     inkscape:window-x="1657"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(265.63993,-52.362206)">
+    <rect
+       style="fill:#90a4ae;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4136"
+       width="300"
+       height="100"
+       x="0"
+       y="52.362206" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';letter-spacing:0px;word-spacing:0px;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="5.2345862"
+       y="114.94064"
+       id="text4138"><tspan
+         sodipodi:role="line"
+         id="tspan4140"
+         x="5.2345862"
+         y="114.94064"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:1.25;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';fill:#f5f5f5;fill-opacity:1">Signal Input</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#424242;stroke-width:4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM)"
+       d="m 149.42732,152.36221 0.57268,150"
+       id="path4196"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4136"
+       sodipodi:nodetypes="cc" />
+    <rect
+       y="305.7995"
+       x="0"
+       height="100"
+       width="300"
+       id="rect4839"
+       style="fill:#3f51b5;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text4841"
+       y="372.41852"
+       x="116.55458"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';letter-spacing:0px;word-spacing:0px;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:1.25;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';fill:#f5f5f5;fill-opacity:1"
+         y="372.41852"
+         x="116.55458"
+         id="tspan4843"
+         sodipodi:role="line">BN</tspan></text>
+    <rect
+       style="fill:#ffc107;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4845"
+       width="300"
+       height="100"
+       x="0"
+       y="405.79947" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';letter-spacing:0px;word-spacing:0px;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="96.351532"
+       y="476.45901"
+       id="text4847"><tspan
+         sodipodi:role="line"
+         id="tspan4849"
+         x="96.351532"
+         y="476.45901"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:1.25;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';fill:#f5f5f5;fill-opacity:1">Relu</tspan></text>
+    <rect
+       y="505.7995"
+       x="0"
+       height="100"
+       width="300"
+       id="rect4851"
+       style="fill:#f44336;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text4853"
+       y="568.37787"
+       x="59.986042"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';letter-spacing:0px;word-spacing:0px;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:1.25;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';fill:#f5f5f5;fill-opacity:1"
+         y="568.37787"
+         x="59.986042"
+         id="tspan4855"
+         sodipodi:role="line">Dropout</tspan></text>
+    <rect
+       y="605.7995"
+       x="0"
+       height="100"
+       width="300"
+       id="rect4161-3-9"
+       style="fill:#00bcd4;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text4163-6-3"
+       y="676.45923"
+       x="94.331223"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';letter-spacing:0px;word-spacing:0px;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:1.25;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';fill:#f5f5f5;fill-opacity:1"
+         y="676.45923"
+         x="94.331223"
+         id="tspan4165-7-6"
+         sodipodi:role="line">Conv</tspan></text>
+    <rect
+       style="fill:#3f51b5;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4184-5-0"
+       width="300"
+       height="100"
+       x="0"
+       y="705.79956" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';letter-spacing:0px;word-spacing:0px;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="116.55457"
+       y="772.41858"
+       id="text4186-3-6"><tspan
+         sodipodi:role="line"
+         id="tspan4188-5-2"
+         x="116.55457"
+         y="772.41858"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:1.25;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';fill:#f5f5f5;fill-opacity:1">BN</tspan></text>
+    <rect
+       y="805.79956"
+       x="0"
+       height="100"
+       width="300"
+       id="rect4190-6-6"
+       style="fill:#ffc107;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text4192-2-1"
+       y="876.45923"
+       x="96.351532"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';letter-spacing:0px;word-spacing:0px;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:1.25;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';fill:#f5f5f5;fill-opacity:1"
+         y="876.45923"
+         x="96.351532"
+         id="tspan4194-9-8"
+         sodipodi:role="line">Relu</tspan></text>
+    <rect
+       style="fill:#f44336;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4695-7"
+       width="300"
+       height="100"
+       x="0"
+       y="905.79968" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';letter-spacing:0px;word-spacing:0px;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="59.986042"
+       y="968.37781"
+       id="text4697-9"><tspan
+         sodipodi:role="line"
+         id="tspan4699-2"
+         x="59.986042"
+         y="968.37781"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:1.25;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';fill:#f5f5f5;fill-opacity:1">Dropout</tspan></text>
+    <rect
+       y="1005.7997"
+       x="0"
+       height="100"
+       width="300"
+       id="rect4161-3-2-0"
+       style="fill:#00bcd4;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text4163-6-7-2"
+       y="1076.4595"
+       x="94.331223"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';letter-spacing:0px;word-spacing:0px;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:1.25;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';fill:#f5f5f5;fill-opacity:1"
+         y="1076.4595"
+         x="94.331223"
+         id="tspan4165-7-0-3"
+         sodipodi:role="line">Conv</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5898)"
+       d="m 151.42857,268.65662 h 500 v 388.57154"
+       id="path5890"
+       inkscape:connector-curvature="0" />
+    <rect
+       y="1305.7997"
+       x="0"
+       height="100"
+       width="300"
+       id="rect5968"
+       style="fill:#3f51b5;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text5970"
+       y="1372.4186"
+       x="116.55457"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';letter-spacing:0px;word-spacing:0px;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:1.25;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';fill:#f5f5f5;fill-opacity:1"
+         y="1372.4186"
+         x="116.55457"
+         id="tspan5972"
+         sodipodi:role="line">BN</tspan></text>
+    <rect
+       style="fill:#ffc107;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5974"
+       width="300"
+       height="100"
+       x="0"
+       y="1405.7997" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';letter-spacing:0px;word-spacing:0px;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="96.351532"
+       y="1476.4594"
+       id="text5976"><tspan
+         sodipodi:role="line"
+         id="tspan5978"
+         x="96.351532"
+         y="1476.4594"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:1.25;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';fill:#f5f5f5;fill-opacity:1">Relu</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#424242;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5988)"
+       d="m 150,1105.7997 v 200"
+       id="path5980"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4161-3-2-0"
+       inkscape:connection-end="#rect5968" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#424242;stroke-width:4.03781748;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6078)"
+       d="M 648.52419,754.81316 V 1179.9607 H 151.47453"
+       id="path6070"
+       inkscape:connector-curvature="0" />
+    <rect
+       y="1505.7997"
+       x="0"
+       height="100"
+       width="300"
+       id="rect6184"
+       style="opacity:1;fill:#4caf50;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text6186"
+       y="1573.6022"
+       x="76.351532"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';letter-spacing:0px;word-spacing:0px;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:1.25;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';fill:#f5f5f5;fill-opacity:1"
+         y="1573.6022"
+         x="76.351532"
+         id="tspan6188"
+         sodipodi:role="line">Dense</tspan></text>
+    <rect
+       style="opacity:1;fill:#90a4ae;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6190"
+       width="300"
+       height="100"
+       x="0"
+       y="1705.7997" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';letter-spacing:0px;word-spacing:0px;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="63.494389"
+       y="1772.1737"
+       id="text6192"><tspan
+         sodipodi:role="line"
+         id="tspan6194"
+         x="63.494389"
+         y="1772.1737"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:1.25;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';fill:#f5f5f5;fill-opacity:1">Output</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#424242;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6204)"
+       d="m 150,1605.7997 v 100"
+       id="path6196"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect6184"
+       inkscape:connection-end="#rect6190" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#424242;stroke-width:5.08400011;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:30.50400066, 30.50400066;stroke-dashoffset:29.99559784;stroke-opacity:1"
+       id="rect6298"
+       width="1225.2213"
+       height="1043.3939"
+       x="-263.09793"
+       y="200.30595" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';letter-spacing:0px;word-spacing:0px;fill:#424242;fill-opacity:0.74117647;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="816.20325"
+       y="342.18549"
+       id="text6300"><tspan
+         sodipodi:role="line"
+         id="tspan6302"
+         x="816.20325"
+         y="342.18549"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:180px;line-height:1.25;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';fill:#424242;fill-opacity:0.74117647">n</tspan></text>
+    <g
+       id="g155"
+       transform="translate(-148.57143,1.4285995)">
+      <rect
+         style="fill:#9c27b0;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect5884"
+         width="300"
+         height="100"
+         x="500"
+         y="655.79956" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';letter-spacing:0px;word-spacing:0px;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="545.84393"
+         y="720.39832"
+         id="text5886"><tspan
+           sodipodi:role="line"
+           id="tspan5888"
+           x="545.84393"
+           y="720.39832"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:1.25;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';fill:#f5f5f5;fill-opacity:1">Max pool</tspan></text>
+      <rect
+         style="fill:#00bcd4;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4161-3-9-1"
+         width="300"
+         height="100.00001"
+         x="800"
+         y="655.79956" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';letter-spacing:0px;word-spacing:0px;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="893.53284"
+         y="726.62805"
+         id="text4163-6-3-6"><tspan
+           sodipodi:role="line"
+           id="tspan4165-7-6-1"
+           x="893.53284"
+           y="726.62805"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.00000381px;line-height:1.25;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';fill:#f5f5f5;fill-opacity:1;stroke-width:1px">Conv</tspan></text>
+    </g>
+    <g
+       id="g1128"
+       transform="translate(1200.4419,-7.5446101)">
+      <rect
+         y="1313.9694"
+         x="-715.10425"
+         height="100.00001"
+         width="476.78574"
+         id="rect4136-3"
+         style="fill:#90a4ae;fill-opacity:1;stroke:none;stroke-width:5.0426755;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text174"
+         y="1382.7194"
+         x="-690.99707"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;font-family:'微软雅黑';-inkscape-font-specification:'微软雅黑';fill:#f5f5f5;fill-opacity:1;stroke-width:0.9375px"
+           y="1382.7194"
+           x="-690.99707"
+           id="tspan172"
+           sodipodi:role="line">working condition</tspan></text>
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#424242;stroke-width:5.0625;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1154)"
+       d="M 485.33765,1356.165 300,1355.9631"
+       id="path1132"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g1128"
+       inkscape:connection-end="#rect5968" />
+  </g>
+</svg>
