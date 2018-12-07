@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./static/css/style.css">
+    <title>High-accurate multiple machining tool wear with convolutional neural network and its transfer learning</title>
+</head>
+<body>
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark navbar-metro">
+    <a class="navbar-brand" href="#">kidozh</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item ">
+                <a class="nav-link" href="https://kidozh.com/keras_detect_tool_wear/">Single machining tool wear <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="">Multiple machining Tool wear</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://kidozh.com/keras_detect_tool_wear/visualization.html">Visualization</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Tool wear forecast</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav navbar-right">
+            <li class="nav-item">
+                <a class="nav-link" href="#">简中</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="row project-bg">
+        <div class="col-md-10 offset-md-1">
+            <h1 class="project-title">High-accurate multiple machining tool wear with convolutional neural network and its transfer learning</h1>
+
+            <h3 class="author">kidozh</h3>
+            <p class="lead"><a href="http://jidian.nwpu.edu.cn/info/1229/5124.htm">Key Lab of Contemporary Design and Integrated Manufacturing Technology</a>, <a href="http://en.nwpu.edu.cn/">Northwestern Polytechnical University</a></p>
+
+        </div>
+    </div>
+    <div class="row project-section">
+        <div class="col-md-5 offset-md-1">
+            <h2>We develop a model which can monitor tool wear from multiple machining condition and successfully migrate it
+                to new condition.</h2>
+            <p>Key to exceeding expert and traditional performance is a deep convolutional network
+                which can map a sequence of signal and different condition parameters to tool wear
+                label along with NASA milling dataset.</p>
+
+            <p><a class="btn btn-outline-primary disabled" href="#">READ OUR PAPER (UNDER PUBLISH)</a>
+                <a class="btn btn-outline-primary" href="https://github.com/kidozh/transfer_learning_NASA">
+                    <span class="fa fa-github"></span> SOURCE CODE
+                </a>
+            </p>
+        </div>
+    </div>
+    <div class="row project-section model-detail">
+        <div class="col-md-4 offset-md-2">
+            <img class="img-fluid" src="./static/images/whole_structure.svg" alt="Whole structure of ResNet">
+        </div>
+        <div class="col-md-5">
+            <h2>We train a 20-block convolutional neural network (CNN) to predict tool wear in 6-dimensional sensor
+                signals and its machining condition
+            </h2>
+            <p>The network takes as input a time-series of secondary-sampled sensor signal with machining condition parameter
+                , and outputs a sequence of responding tool wear. The position of two main input is located at the beginning of
+                residual block and the end of that. Finally we arrive at an architecture which is 20 residual blocks of convolution
+                followed by a fully connected layer.
+            </p>
+            <p>To make the optimization of such a deep model tractable, we use residual connections and batch-normalization.
+                The depth increases both the non-linearity of the computation as well as the size of the context window for
+                each regression task. In order to equip model with convenience in transferring model, a feature compression
+                is designed for better performance in transferring model.
+            </p>
+            <p>To make full use of signal features in different condition, one-hot coding about machining condition is applied.
+            By that, it's easy for network sharing information among different situation and brings benefits in prediction in
+                multiple condition and transferring to new condition.
+            </p>
+        </div>
+    </div>
+    <div class="row project-section">
+        <div class="col-md-10 offset-md-1">
+            <h1>The data is collected a dataset of 16 tools under 8 different milling condition</h1>
+            <p>The matrix for the milling condition parameters chosen for the experiments were guided by industrial applicability and
+                recommended manufacturer's settings. Therefore, the cutting speed was set to 200 m/min which is
+                equivalent to 826 rev/min. Two different depths of cut were chosen, 1.5mm and 0.75mm. Also, two
+                feeds were taken, 0.5mm/rev and 0.25mm/rev which translate into 413mm/min and 206.5mm/min,
+                respectively. Two types of material, cast iron and stainless steel J45 were used and, as already
+                mentioned earlier, with an inserts of type KC710. These choices equal 8 different settings. All
+                experiments were done a second time with the same parameters with a second set of inserts. The size of
+                the workpieces was 483mm x 178mm x 51mm.</p>
+        </div>
+    </div>
+
+    <div class="row project-section data-repair-section">
+        <div class="col-md-10 offset-md-1">
+            <h1>Data Repair in Different Milling Condition</h1>
+            <p>Focal point to repair missing tool wear label is over-fitting random forest. Since small amount of original data
+            is missed, a over-fitting random tree could infer the lost value by its powerful generality.
+            </p>
+            <p>It provides us with a strong tool to deal with lots of historical data without manual inference and re-experiment.
+            In NASA milling data, around 5% data has no label. By that, we successfully fix that hole on ship we are sailing on data ocean.
+            </p>
+        </div>
+        <div class="col-md-5 offset-md-1">
+            <p class="text-center">
+                <img class="img-fluid" src="./static/images/original_data.svg" alt="Before transfer"><br/>
+                Before repairing data
+            </p>
+
+        </div>
+        <div class="col-md-5">
+            <p class="text-center">
+                <img class="img-fluid" src="./static/images/fixed_data.svg" alt="After transfer"><br/>
+                After repairing data
+            </p>
+
+        </div>
+    </div>
+    <div class="row project-section">
+        <div class="col-md-5 offset-md-1">
+            <h1>Multiple milling condition tool wear recognition and prediction</h1>
+            <p>By those special design, CNN can extract feature from signal under different milling condition. The error
+                between actual and predicted tool wear remains low. However, since there is a great scale difference between
+                train and test set, model can't predict well in test set which will be transfer destination later.
+            </p>
+            <p>According to data recorded by TensorBoard, MSE is ~4.0. The prediction of this model is as accurate as CNN
+            in single work condition. It indicates that model can extract feature from different milling signal. The generalization
+                of this model shows its ability to migrate itself to new condition.
+            </p>
+        </div>
+        <div class="col-md-5">
+            <p class="text-center">
+                <img class="img-fluid" src="./static/images/迁移学习前结果.svg" alt="native predict result"><br/>
+            </p>
+        </div>
+    </div>
+    <div class="row project-section">
+        <div class="col-md-5 offset-md-1">
+            <img class="img-fluid" src="./static/images/迁移学习之后结果.svg" alt="native predict result"><br/>
+        </div>
+        <div class="col-md-5">
+            <h1>Transfer learning</h1>
+            <p>As illustrated at previous section, remarkable prediction at different conditions shows model's ability in
+                migrating among different signals. A classical transfer learning approach is used. By freezing weights and
+                bias of lower CNN filters and training at higher CNN layer, model is able to used its prior experience to
+                predict in new environment. This also reduce lots of computation and train time. By applying transfer learning
+                , tons of time could be saved.
+            </p>
+            <p>According to data recorded by TensorBoard, MSE is ~4.0. The prediction of this model is as accurate as CNN
+                in model transferred before. It proves that model can extract feature from different milling signal and give
+                a high-accurate prediction.
+            </p>
+        </div>
+    </div>
+
+    <div class="row project-section conclusion">
+        <div class="col-md-8 offset-md-1">
+            <h3>Given that more than 300 run are recorded in NASA data, high-accuracy prediction by CNN
+                can monitor tool wear and migrate to other new milling condition. Furthermore, we hope that
+                this technology coped with sensor signal enables more widespread use of deep learning in places
+                where manufacturing condition is too much to set individual model.
+            </h3>
+        </div>
+    </div>
+    <div class="row project-section contact-us-section">
+        <div class="col-md-8 offset-md-1">
+            <h3>If you have questions about our work, contact us at: kidozh@gmail.com</h3>
+        </div>
+
+    </div>
+
+    <div class="row footer">
+        <div class="col-md-12">
+            <h3 class="text-center">This project is licensed <a href="https://github.com/kidozh/keras_detect_tool_wear/blob/master/LICENSE">MIT</a>,
+                Docs <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>
+            </h3>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

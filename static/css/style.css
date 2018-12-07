@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Muli|Open+Sans');
+
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Muli', "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-weight: 400;
+}
+
+p{
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.navbar-metro{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    z-index: 100;
+}
+
+.navbar-metro a{
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Dosis','Open Sans', "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif !important;
+}
+
+.project-bg{
+    padding: 8rem 2rem 5rem 2rem;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.project-bg *{
+    font-family: "Muli","Microsoft Yahei UI",sans-serif;
+    color: #ecf0f1;
+}
+
+.project-bg a:hover,
+.project-bg a:focus{
+    color: #bdc3c7;
+    transition: .35s all;
+}
+
+.project-bg .author{
+    margin: 1rem 0 1rem 0;
+}
+
+.project-section{
+    padding: 2rem 0 2rem 0;
+}
+
+.project-section h1,
+.project-section h2,
+.project-section h3,
+.project-section h4,
+.project-section h5,
+.project-section h6{
+    color: #2c3e50;
+}
+
+.project-section p{
+    color: #34495e;
+}
+
+.model-detail{
+    background: #ecf0f1;
+}
+
+.data-repair-section{
+    background: #ecf0f1;
+}
+
+.contact-us-section{
+    background: #7c064d;
+}
+
+.contact-us-section h3{
+    color: #ffeed0;
+}
+
+.contact-us-section a{
+    color: #f79f24;
+}
+
+.conclusion{
+    background: #f5f5f5;
+}
+
+.footer{
+    padding: 2rem 1rem 2rem 1rem;
+    background: #f7f7f7;
+}
+
+.footer *{
+    color: #6c757d;
+}
+
+.footer a{
+    color : #495057;
+}
