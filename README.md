@@ -1,6 +1,10 @@
 # transfer_learning_NASA
 Testing transfer learning among different milling condition
 
+# HomePage
+
+You can click [HERE](https://kidozh.com/transfer_learning_NASA/) to see our project.
+
 # Current Dev
 
 + replace `NaN` value by random forest algorithm
